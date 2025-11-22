@@ -225,7 +225,7 @@ export const Gameboy: React.FC<GameboyProps> = ({
               onClick={handleStart}
             ></button>
             <span className="text-[#aaa] font-bold text-[10px] tracking-widest uppercase mt-2 font-sans drop-shadow-[0_1px_0_rgba(0,0,0,0.8)]">
-              Start
+              {isPlaying ? "Pause" : "Start"}
             </span>
           </div>
         </div>

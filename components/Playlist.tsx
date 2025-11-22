@@ -25,7 +25,7 @@ export const Playlist: React.FC<PlaylistProps> = ({
         {playlist.length === 0 ? (
           <div className="h-full flex flex-col items-center justify-center text-[#666] text-xs text-center gap-2">
             <div className="w-8 h-8 border-2 border-[#333] rounded-full flex items-center justify-center">
-              <span className="text-lg">?</span>
+              <span className="text-sm mt-[4px] ml-[4px]">?</span>
             </div>
             <p>NO CARTRIDGE LOADED</p>
             <p className="text-[10px] opacity-50">Use SELECT on Player</p>
@@ -52,14 +52,14 @@ export const Playlist: React.FC<PlaylistProps> = ({
                   </div>
                   <div className="flex-1 min-w-0">
                     <div
-                      className={`text-[8px] mt-1 text-[#8bac0f] font-sans ${
+                      className={`text-sm text-[#8bac0f] font-sans ${
                         isActive ? "font-bold" : ""
                       }`}
                     >
                       {song.name}
                     </div>
                     {isActive && isPlaying && (
-                      <div className="text-[8px] mt-1 text-[#8bac0f] animate-pulse">
+                      <div className="text-xs mt-1 text-[#8bac0f] animate-pulse">
                         PLAYING...
                       </div>
                     )}
@@ -72,10 +72,6 @@ export const Playlist: React.FC<PlaylistProps> = ({
             })}
           </ul>
         )}
-      </div>
-
-      <div className="mt-4 pt-4 border-t border-[#333] text-[10px] text-[#666] text-center font-sans uppercase tracking-wider">
-        Macro Wave Audio System
       </div>
     </div>
   );

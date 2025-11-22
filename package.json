@@ -1,8 +1,30 @@
 {
   "name": "retrobeats-gb",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "asteryk",
+  "license": "MIT",
+  "homepage": "https://github.com/asteryk/retrobeats-gb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asteryk/retrobeats-gb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asteryk/retrobeats-gb/issues"
+  },
+  "keywords": [
+    "retro",
+    "gameboy",
+    "music",
+    "player"
+  ],
+  "contributors": [
+    {
+      "name": "asteryk",
+      "url": "https://github.com/asteryk"
+    }
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
