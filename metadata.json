@@ -1,0 +1,5 @@
+{
+  "name": "RetroBeats GB",
+  "description": "A retro Gameboy-style offline music player.",
+  "requestFramePermissions": []
+}
